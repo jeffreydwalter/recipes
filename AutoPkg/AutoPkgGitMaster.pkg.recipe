@@ -13,7 +13,7 @@ This is not used to obtain the latest released version.
         <key>NAME</key>
         <string>autopkg</string>
         <key>URL</key>
-        <string>https://github.com/autopkg/autopkg/zipball/master</string>
+        <string>https://github.com/jeffreydwalter/autopkg/zipball/master</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.1</string>

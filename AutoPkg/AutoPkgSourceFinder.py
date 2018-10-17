@@ -53,7 +53,7 @@ class AutoPkgSourceFinder(Processor):
         # Get root dir
         root_dir = self.env["input_path"]
         try:
-            autopkg_dir = self.find_match(root_dir, 'autopkg-autopkg-*')
+            autopkg_dir = self.find_match(root_dir, 'jeffreydwalter-autopkg-*')
             self.env["autopkg_path"] = os.path.join(root_dir, autopkg_dir)
             self.output("Found %s" % self.env["autopkg_path"])
         except BaseException as err:
